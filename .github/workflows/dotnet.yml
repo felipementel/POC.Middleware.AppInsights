@@ -6,12 +6,11 @@ on:
   pull_request:
     branches: [ main ]
 
+defaults:
+  run:
+    working-directory: src
+
 jobs:
-  phpunit:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./src
   build:
     runs-on: ubuntu-latest
 
