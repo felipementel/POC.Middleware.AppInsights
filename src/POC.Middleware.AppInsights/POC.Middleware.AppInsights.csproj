@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>49e66d4b-8b5a-4342-aa4c-59eaf172a3f3</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/297a9591-3c27-4597-9571-6d7789c92cff/resourceGroups/rg-vale-crm/providers/microsoft.insights/components/appi-test-vale-crm</ApplicationInsightsResourceId>
+    <Version>0.7.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.17.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.PerfCounterCollector" Version="2.17.0" />
+  </ItemGroup>
+
+
+</Project>
